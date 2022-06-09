@@ -42,6 +42,7 @@ public class VarifyUserCanBuyProduct {
 	public void launchBrowser(String browserName)
 	{
 		System.out.println(browserName);
+		
 		if(browserName.equals("Chrome"))
 		{
 			driver=BaseClass.openChromeBrowser();
