@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestClasses.VarifyUserCanBuyProduct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="verifyUserCanSearchProduct"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestClasses.VarifyUserCanBuyProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="2" name="Test1(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestClasses.VarifyUserCanBuyProduct">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="verifyUserCanSearchProduct"/>
+          <include name="beforeMethod"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestClasses.VarifyUserCanBuyProduct -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
